@@ -25,7 +25,13 @@ spring:
           slow-sql-millis: 500
           log-slow-sql: true
   jpa:
+    properties:
+      hibernate:
+        temp:
+          use_jdbc_metadata_defaults: false
     show-sql: true
+    hibernate:
+      ddl-auto: update
 #    type: com.alibaba.druid.pool.DruidDataSource
 
 mybatis:
