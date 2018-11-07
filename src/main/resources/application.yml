@@ -28,4 +28,7 @@ spring:
     show-sql: true
 #    type: com.alibaba.druid.pool.DruidDataSource
 
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
 #    initialSize: 5

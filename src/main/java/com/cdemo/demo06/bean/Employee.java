@@ -4,7 +4,7 @@ package com.cdemo.demo06.bean;
  * @author Charlie Tian
  * @date 11/7/18
  */
-public class Emmployee {
+public class Employee {
     private Integer id;
     private String lastName;
     private Integer gender;
